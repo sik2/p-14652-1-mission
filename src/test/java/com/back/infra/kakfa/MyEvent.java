@@ -1,0 +1,6 @@
+package com.back.infra.kakfa;
+
+import com.back.standard.event.HasEventName;
+
+public record MyEvent(String msg) implements HasEventName {
+}
